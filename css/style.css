@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.header {
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  width: 80px;
+  background-color: #ff7500;
+}
+/* Header */
+.site-nav {
+}
+.site-list {
+  display: flex;
+}
+.site-item:not(:last-child) {
+  margin-right: 32px;
+}
+.site-item a {
+  color: #000;
+}
+.site-button {
+  display: inline-block;
+  width: 155px;
+  height: 39px;
+  line-height: 36px;
+  background-color: #ff7500;
+  text-align: center;
+  color: #fff;
+}
+/* Main section */
+.hero-section {
+  background-color: #252420;
+  color: #fff;
+  height: 488px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.hero-title {
+}
+.hero-descr {
+}
+.site-button {
+}
+/* WHY Akademnashr */
+.why-akademnashr {
+  height: 885px;
+}
+.akademnashr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.akademnashr-info {
+  color: #000000;
+}
+.akademnashr-title {
+  font-size: 72px;
+  width: 435px;
+}
+.akademnashr-list {
+  display: flex;
+  flex-direction: space-between;
+}
+.akademnashr-item {
+}
+.item-img-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: rgba(255, 117, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-img {
+  width: 50px;
+}
+.item-title {
+  font-size: 24px;
+  color: #000000;
+}
+.item-descr {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+/* Sale section */
+.sale-section {
+  margin-bottom: 160px;
+}
+.sale-container {
+  width: 1200px;
+  height: 419px;
+  padding: 64px;
+  background-color: #252420;
+  color: #fff;
+  border-radius: 30px;
+  display: flex;
+  position: relative;
+}
+.sale-info {
+  width: 414px;
+}
+.sale-title {
+  font-style: 40px;
+  line-height: 48px;
+}
+.sale-descr {
+  font-size: 16px;
+  line-height: 24px;
+}
+.sale-img {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
+}
+/* Footer section */
+.footer {
+  height: 507px;
+  background-color: #f8f8f8;
+}
+.footer-container {
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  /*  */
+}
+.icon-list {
+  display: flex;
+}
+.iconi-item {
+  margin-right: 16px;
+}
+.icon-link {
+}
+.icon-img {
+}
+.footer-link {
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  padding-top: 64px;
+}
+.item-list {
+}
+.item-item {
+  margin-bottom: 16px;
+}
+.item-item-link {
+  color: #252420;
+}
